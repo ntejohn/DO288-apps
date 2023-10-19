@@ -82,9 +82,9 @@ tolerations: []
 affinity: {}
 mariadb:
   auth:
-    username: username
-    password: password
-    database: database
+    username: todouser
+    password: todopwd
+    database: tododb
   primary:
     podSecurityContext:
       enabled: false
